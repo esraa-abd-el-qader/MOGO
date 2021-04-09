@@ -1,0 +1,343 @@
+@import"partial/var";
+@import"partial/placeholder";
+@import"partial/global";
+
+
+//header//////
+header {
+    background: linear-gradient(rgba(219, 116, 117, 0.6),
+
+            rgba(228, 205, 125, 0.75)),
+
+        url("./assets/Images-20210222T130210Z-001/Images/homebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    nav {
+        background-color: transparent;
+
+        li a {
+            color: white;
+            font-size: 0.75rem;
+        }
+        .active{
+            border-bottom: 1px solid #FDE48A;
+            color: #f6c23a;
+           
+        }
+    }
+
+    h1 {
+        font-size: 7rem;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    h4 {
+        font-size: 4.5rem;
+
+    }
+
+    button {
+        @extend %button;
+
+        &:hover {
+            background-color: $yellow;
+        }
+    }
+
+}
+
+
+
+@media (min-width: 320px)and (max-width:500px){
+    .main_title{
+        font-size: 40px;
+        // width: 80%;
+    }
+    .subtitle{
+        width: 90%;
+    }
+}
+
+
+
+
+//section2////
+.about_us {
+
+    figure {
+        position: relative;
+    }
+
+    .about_overlay {
+        background: $background;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        padding-top: 25%;
+        opacity: 0;
+
+        &:hover {
+            opacity: 1;
+            color: white;
+            box-shadow: 10px 10px 0px 0px $baseColor;
+        }
+    }
+}
+
+///section3/////
+
+.counter {
+    background: $baseColor;
+    color: white;
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+}
+
+////section 4/////
+.services {
+    h3 {
+        font-size: 0.875rem;
+        margin-bottom: 5%;
+    }
+
+    .single_service_icon i {
+        color: #95e1d3;
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+}
+
+////section 4//////
+
+.devices {
+    background-image: url(assets/Images-20210222T130210Z-001/Images/divicebg.jpg);
+    background-size: cover;
+
+    .overlay_devices {
+        background-color: rgba(237, 237, 237, 0.80);
+        width: 100%;
+        height: auto;
+    }
+
+    .device_two {
+        position: absolute;
+        right: -182px;
+        bottom: -88px;
+        z-index: 99;
+    }
+}
+
+
+@media (min-width: 320px)and (max-width:500px){
+    .device_two{
+       width: 60%;
+      left: 100px;
+      top: 60px;
+    }
+}
+///section 5//////
+
+.accordion {
+
+    a {
+        color: black;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    i {
+        color: $baseColor;
+        font-size: 1.5rem;
+        margin-right: 15px;
+    }
+}
+
+
+@media (min-width: 320px)and (max-width:500px){
+    .accordion{
+      margin-top: 10%;
+    }
+}
+//section 6//////
+.team {
+    h5 {
+        font-weight: 300;
+        font-size: 0.875rem;
+    }
+
+    figure {
+        position: relative;
+    }
+
+    .team_overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 55%;
+        background: $background;
+        opacity: 0;
+        &:hover {
+            opacity: 1;
+            box-shadow: 10px 10px 0px 0px $baseColor;}
+
+        a i {
+            width: 60px;
+            height: 60px;
+            font-size: 1.875rem;
+            line-height: 60px;
+            color:$pink;
+            background: #fce38a;
+        }
+
+    }
+}
+//section 7/////
+
+.logo {
+    background-color: #f8f8f8;
+}
+//section 8/////
+
+.work {
+    figure {
+        position: relative;
+    }
+
+    .work_overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 30%;
+        color: #fff;
+        background: linear-gradient(rgba(219, 116, 117, 0.6), rgba(228, 205, 125, 0.75));
+        opacity: 0;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+//section 9/////
+.slidder {
+    background-color: #f8f8f8;
+}
+//section 10/////
+
+.client {
+    background-image: url(assets/Images-20210222T130210Z-001/Images/clientbg.jpg);
+
+    .client_overlay {
+        background-color: rgba(237, 237, 237, 0.80);
+        width: 100%;
+        height: auto;
+    }
+}
+
+//section 11/////
+
+.blog {
+    .blog_img {
+        position: relative;
+    }
+
+    .blog_date {
+        position: absolute;
+        left: -10px;
+        bottom: 20px;
+        background: #3bd3ba;
+        color: #fff;
+        text-align: center;
+        width: 60px;
+        height: 70px;
+    }
+
+    &_bottom_content {
+
+        i {
+            color: $baseColor;
+        }
+        a {
+            color: #999999;
+            text-decoration: none;
+            margin-left: 5%;
+        }
+    }
+}
+//section 12///
+.map {
+    background: linear-gradient(rgba(237, 237, 237, 0.8),
+            rgba(237, 237, 237, 0.8)),
+
+        url("./assets/Images-20210222T130210Z-001/Images/mapbg.jpg");
+
+    h2 {
+        color:$pink;
+    }
+
+    i {
+        color:$pink;
+        font-size: 2.5rem;
+    }
+}
+//section 13////
+
+.footer {
+    background-color: #f8f8f8;
+
+    .form {
+        font-size: 14px;
+        border: 0px solid #ccc;
+        border-radius: 4px 0px 0px 4px;
+        width: 65%;
+        display: inline-block;
+        height: 34px;
+
+       &::placeholder {
+            color: #5e9a28;
+            padding: 10px;
+        }
+    }
+
+    .submit_btn {
+        background: #95e1d3;
+        border: 0px solid #95e1d3;
+        color: #fff;
+        padding: 5px 10px;
+        margin-left: -4px;
+        border-radius: 0px 4px 4px 0px;
+        height: 34px;
+        outline: none;
+        font-size: 13px;
+        line-height: 23px;
+        width: 35%;
+    }
+
+    .follow_us a i {
+        color: #95e1d3;
+        font-size: 1rem;
+        padding: 5px;
+    }
+}
+
+
+@media (min-width: 320px)and (max-width:500px){
+    .footer_gellary img{
+width:50%; 
+justify-content: center;  }
+}

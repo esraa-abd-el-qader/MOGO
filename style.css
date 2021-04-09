@@ -1,0 +1,364 @@
+.line {
+  height: 3px;
+  width: 127px;
+  margin: 25px auto;
+  background: #f38181;
+}
+
+.line2 {
+  height: 2px;
+  width: 30px;
+  margin: 7px 10px;
+  background: #f38181;
+  display: inline-block;
+}
+
+.border_devider {
+  width: 100%;
+  height: 2px;
+  background: #ddd;
+  overflow: hidden;
+  margin: 20px 0px;
+  display: inline-block;
+}
+
+header button {
+  border: 1px solid;
+  color: white;
+  min-width: 160px;
+  height: 45px;
+  background-color: transparent;
+}
+
+.line {
+  height: 3px;
+  width: 127px;
+  margin: 25px auto;
+  background: #f38181;
+}
+
+.line2 {
+  height: 2px;
+  width: 30px;
+  margin: 7px 10px;
+  background: #f38181;
+  display: inline-block;
+}
+
+.border_devider {
+  width: 100%;
+  height: 2px;
+  background: #ddd;
+  overflow: hidden;
+  margin: 20px 0px;
+  display: inline-block;
+}
+
+header button {
+  border: 1px solid;
+  color: white;
+  min-width: 160px;
+  height: 45px;
+  background-color: transparent;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-family: "Kaushan Script";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.italic_roboto {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+header {
+  background: linear-gradient(rgba(219, 116, 117, 0.6), rgba(228, 205, 125, 0.75)), url("./assets/Images-20210222T130210Z-001/Images/homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+header nav {
+  background-color: transparent;
+}
+header nav li a {
+  color: white;
+  font-size: 0.75rem;
+}
+header nav .active {
+  border-bottom: 1px solid #FDE48A;
+  color: #f6c23a;
+}
+header h1 {
+  font-size: 7rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+header h4 {
+  font-size: 4.5rem;
+}
+header button:hover {
+  background-color: #f5c239;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .main_title {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    width: 90%;
+  }
+}
+.about_us figure {
+  position: relative;
+}
+.about_us .about_overlay {
+  background: linear-gradient(rgba(219, 116, 117, 0.6), rgba(228, 205, 125, 0.75));
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding-top: 25%;
+  opacity: 0;
+}
+.about_us .about_overlay:hover {
+  opacity: 1;
+  color: white;
+  box-shadow: 10px 10px 0px 0px #3bd3ba;
+}
+
+.counter {
+  background: #3bd3ba;
+  color: white;
+}
+.counter h2 {
+  font-size: 4.5rem;
+}
+.counter h3 {
+  font-size: 1.125rem;
+}
+
+.services h3 {
+  font-size: 0.875rem;
+  margin-bottom: 5%;
+}
+.services .single_service_icon i {
+  color: #95e1d3;
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.devices {
+  background-image: url(assets/Images-20210222T130210Z-001/Images/divicebg.jpg);
+  background-size: cover;
+}
+.devices .overlay_devices {
+  background-color: rgba(237, 237, 237, 0.8);
+  width: 100%;
+  height: auto;
+}
+.devices .device_two {
+  position: absolute;
+  right: -182px;
+  bottom: -88px;
+  z-index: 99;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .device_two {
+    width: 60%;
+    left: 100px;
+    top: 60px;
+  }
+}
+.accordion a {
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+}
+.accordion i {
+  color: #3bd3ba;
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .accordion {
+    margin-top: 10%;
+  }
+}
+.team h5 {
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+.team figure {
+  position: relative;
+}
+.team .team_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 55%;
+  background: linear-gradient(rgba(219, 116, 117, 0.6), rgba(228, 205, 125, 0.75));
+  opacity: 0;
+}
+.team .team_overlay:hover {
+  opacity: 1;
+  box-shadow: 10px 10px 0px 0px #3bd3ba;
+}
+.team .team_overlay a i {
+  width: 60px;
+  height: 60px;
+  font-size: 1.875rem;
+  line-height: 60px;
+  color: #f38181;
+  background: #fce38a;
+}
+
+.logo {
+  background-color: #f8f8f8;
+}
+
+.work figure {
+  position: relative;
+}
+.work .work_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 30%;
+  color: #fff;
+  background: linear-gradient(rgba(219, 116, 117, 0.6), rgba(228, 205, 125, 0.75));
+  opacity: 0;
+}
+.work .work_overlay:hover {
+  opacity: 1;
+}
+
+.slidder {
+  background-color: #f8f8f8;
+}
+
+.client {
+  background-image: url(assets/Images-20210222T130210Z-001/Images/clientbg.jpg);
+}
+.client .client_overlay {
+  background-color: rgba(237, 237, 237, 0.8);
+  width: 100%;
+  height: auto;
+}
+
+.blog .blog_img {
+  position: relative;
+}
+.blog .blog_date {
+  position: absolute;
+  left: -10px;
+  bottom: 20px;
+  background: #3bd3ba;
+  color: #fff;
+  text-align: center;
+  width: 60px;
+  height: 70px;
+}
+.blog_bottom_content i {
+  color: #3bd3ba;
+}
+.blog_bottom_content a {
+  color: #999999;
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+.map {
+  background: linear-gradient(rgba(237, 237, 237, 0.8), rgba(237, 237, 237, 0.8)), url("./assets/Images-20210222T130210Z-001/Images/mapbg.jpg");
+}
+.map h2 {
+  color: #f38181;
+}
+.map i {
+  color: #f38181;
+  font-size: 2.5rem;
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+.footer .form {
+  font-size: 14px;
+  border: 0px solid #ccc;
+  border-radius: 4px 0px 0px 4px;
+  width: 65%;
+  display: inline-block;
+  height: 34px;
+}
+.footer .form::placeholder {
+  color: #5e9a28;
+  padding: 10px;
+}
+.footer .submit_btn {
+  background: #95e1d3;
+  border: 0px solid #95e1d3;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: -4px;
+  border-radius: 0px 4px 4px 0px;
+  height: 34px;
+  outline: none;
+  font-size: 13px;
+  line-height: 23px;
+  width: 35%;
+}
+.footer .follow_us a i {
+  color: #95e1d3;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .footer_gellary img {
+    width: 50%;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

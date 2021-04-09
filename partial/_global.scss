@@ -1,0 +1,43 @@
+@import"placeholder";
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-weight: 700;
+}
+h2{
+    font-size: 1.875rem;
+    font-family: $secondFont;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-family: $thirdFont;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    font-size: 0.875rem;
+}
+.line{
+    @extend %line;
+}
+.line2{
+    @extend %line2;
+}
+.roboto{
+    font-family: $secondFont;
+}
+.italic_roboto{
+    font-family: $secondFont;
+    font-style: italic;
+}
+.border_devider{
+    @extend %border_devider;
+}
